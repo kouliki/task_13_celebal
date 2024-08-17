@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flower Variety Classification</title>
+</head>
+<body>
+    <h1>Flower Variety Classification</h1>
+    <form action="/classify" method="GET">
+        <label for="slen">Sepal Length:</label>
+        <input type="number" name="slen" step="0.01" required><br>
+        <label for="swid">Sepal Width:</label>
+        <input type="number" name="swid" step="0.01" required><br>
+        <label for="plen">Petal Length:</label>
+        <input type="number" name="plen" step="0.01" required><br>
+        <label for="pwid">Petal Width:</label>
+        <input type="number" name="pwid" step="0.01" required><br>
+        <button type="submit">Classify</button>
+    </form>
+</body>
+</html>
